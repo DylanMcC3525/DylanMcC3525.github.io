@@ -2,7 +2,7 @@
 
 ## Personal Portfolio
 
-- **Project Description and Motivation:** This portfolio is being made to showcase my skills as a Software Developer. It will give information about myself and will showcase my projects that I have created so far.
+- **Project Description and Motivation:** This portfolio is being made to showcase my skills as a Software Developer. It will give information about myself and will showcase my projects that I have created so far. This will also be a way to show my skills to employers and others looking at this page.
 - **Prior Art:** This portfolio will showcase my skills in HTML, CSS, and Bootstrap. Along with creating this its inspired by other portfolios that I have recently viewed.
 - **Core User Workflows:** The portfolio will showcase my skills so far as a Software Developer, the user will be able to see about me, my projects, and where to contact me.
 - **Tuesday-Thursday Daily Goals:** 
