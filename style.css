@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap");
+
+body {
+  background-color: #e6ccbe;
+  max-width: 75vw;
+  margin: auto;
+}
+
+.name {
+  color: #a07178;
+  font-family: "Lato", sans-serif;
+  font-size: 50px;
+}
+
+.description {
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+  color: #a07178;
+}
+
+.nav {
+  font-size: 17px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav-link:visited {
+  color: #5a5353;
+}
+
+.nav-link:link {
+  color: #5a5353;
+}
+
+.nav-link:hover {
+  color: #5a5353;
+}
+
+/* .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+} */
