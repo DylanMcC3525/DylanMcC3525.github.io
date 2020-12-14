@@ -1,6 +1,8 @@
 # Unit Project Proposal
 
 ## Personal Portfolio
+<a href="https://ibb.co/FXrq1NQ"><img src="https://i.ibb.co/LrFhybT/Image-from-i-OS-1.jpg" alt="Image-from-i-OS-1" border="0"></a>
+<a href="https://ibb.co/PGLH6Yc"><img src="https://i.ibb.co/KxPvrG2/Image-from-i-OS.jpg" alt="Image-from-i-OS" border="0"></a>
 
 - **Project Description and Motivation:** This portfolio is being made to showcase my skills as a Software Developer. It will give information about myself and will showcase my projects that I have created so far. This will also be a way to show my skills to employers and others looking at this page.
 - **Prior Art:** This portfolio will showcase my skills in HTML, CSS, and Bootstrap. Along with creating this its inspired by other portfolios that I have recently viewed.
