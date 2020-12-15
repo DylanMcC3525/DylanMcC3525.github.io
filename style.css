@@ -27,7 +27,7 @@ h3 {
 }
 
 img {
-  width: 30%;
+  width: 40%;
 }
 
 .h2style {
@@ -86,6 +86,6 @@ img {
 
 @media (max-width: 800px) {
   img {
-    width: 70%;
+    width: 100%;
   }
 }
