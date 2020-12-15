@@ -1,42 +1,80 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap");
 
 body {
-  background-color: #e6ccbe;
+  background: #fff;
   max-width: 75vw;
   margin: auto;
+  font-family: "Lato", sans-serif;
+}
+
+p {
+  color: rgb(88, 88, 88);
+  font-size: 20px;
+}
+
+h1 {
+  color: #4acaa8;
+  font-size: 3.5em;
+}
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+img {
+  width: 30%;
+}
+
+.h2style {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #888;
+  /* border-style: solid;
+  border-color: grey; */
+}
+
+.headers {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+.ContactLists {
+  font-size: 20px;
+  color: #888;
+  font-weight: 400;
 }
 
 .name {
-  color: #a07178;
+  color: #4acaa8;
   font-family: "Lato", sans-serif;
   font-size: 50px;
 }
 
 .description {
-  font-size: 25px;
+  font-size: 22px;
   font-family: "Montserrat", sans-serif;
-  color: #a07178;
+  color: rgb(88, 88, 88);
 }
 
-.nav {
-  font-size: 17px;
+.information {
+  font-size: 22px;
   font-family: "Montserrat", sans-serif;
+  color: rgb(88, 88, 88);
+  font-style: normal;
 }
 
-.nav-link:visited {
-  color: #5a5353;
+/* Cards for Projects */
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
 }
-
-.nav-link:link {
-  color: #5a5353;
-}
-
-.nav-link:hover {
-  color: #5a5353;
-}
-
-/* .container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-} */
