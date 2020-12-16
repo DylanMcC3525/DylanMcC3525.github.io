@@ -27,7 +27,7 @@ h3 {
 }
 
 img {
-  width: 40%;
+  width: 50%;
 }
 
 .h2style {
@@ -59,13 +59,13 @@ img {
 .description {
   font-size: 22px;
   font-family: "Montserrat", sans-serif;
-  color: rgb(88, 88, 88);
+  color: rgb(77, 77, 77);
 }
 
 .information {
   font-size: 17px;
   font-family: "Montserrat", sans-serif;
-  color: rgb(88, 88, 88);
+  color: rgb(77, 77, 77);
   font-style: normal;
 }
 
@@ -94,7 +94,6 @@ html {
 }
 
 /* The side navigation menu */
-/* The sidenav */
 .sidenav {
   height: 100%;
   width: 0px;
@@ -109,7 +108,7 @@ html {
 
 /* Page content */
 .main {
-  margin-left: 200px; /* Same as the width of the sidenav */
+  margin-left: 0px; /* Same as the width of the sidenav */
 }
 
 /* The navigation menu links */
@@ -150,4 +149,7 @@ html {
   .sidenav a {
     font-size: 18px;
   }
-}
+
+
+btn
+{display:inline-block;font-weight:400;color:#212529;text-align:center;vertical-align:middle;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-color:transparent;border:1px solid transparent;padding:.375rem .75rem;font-size:1rem;line-height:1.5;border-radius:.25rem;transition:color;}
