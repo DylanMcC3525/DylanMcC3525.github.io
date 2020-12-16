@@ -6,28 +6,29 @@
     <title >Dylan McCreary</title>
     <link href="style.css" rel="stylesheet">
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
-    <link rel="icon" type="image/png" href="logo"/>
+    <link rel="icon" type="image/png" href="logo.png"/>
+    <!-- Scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="myScript.js"></script>
-    
+    <!--  -->
     
 </head>
 <body id="Home">
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="#Home">Home</a>
-        <a href="#AboutMe">About Me</a>
-        <a href="#Projects">Projects</a>
-        <a href="#ContactMe">Contact Me</a>
+        <a href="#Home" onclick="closeNavMedia()">Home</a>
+        <a href="#AboutMe" onclick="closeNavMedia()">About Me</a>
+        <a href="#Projects" onclick="closeNavMedia()">Projects</a>
+        <a href="#ContactMe" onclick="closeNavMedia()">Contact Me</a>
     </div>
     <span onclick="openNav()"><i class="fas fa-2x fa-bars"></i></span>
     <div id="main">
     <h1 class="name headers">Dylan McCreary</h1>
-    <p class="description">Software Developer</p>
+    <p class="description">&lt;Software Developer/&gt;</p>
     
     <h1 id="AboutMe" class="headers">About Me</h1>
     <div class="card"></div>
-    <p class="information">Welcome to my portfolio. My name is Dylan McCreary, I am currently attending <a href="https://basecampcodingacademy.org/">Base Camp Coding Academy</a> where I am training to be a Software Developer. I am skilled in Python, HTML, CSS, Bootstrap, Git, and MySQL. I also have experience in graphic design.</p>
+    <p class="information">Welcome to my portfolio. My name is Dylan McCreary, I am currently attending <a href="https://basecampcodingacademy.org/">Base Camp Coding Academy</a> where I am training to be a Software Developer. I am skilled in Python, HTML, CSS, Bootstrap, Git, and SQLite. I also have experience in graphic design.</p>
     <div class="card-columns mb-3">
         <h1 class="headers" id="Projects">Projects</h1>
         <div class="card"></div>
@@ -48,15 +49,14 @@
             </div>
 
         </div>
-        <div class="card border-dark"></div>
     <h1 class="headers" id="ContactMe">Contact Me</h1>
     <div class="card"></div>
     <div>
         <h2>Places you can contact</h2>
-        <button class="btn btn-outline-secondary"><a class="ContactLists" href="bmccreary3525@gmail.com">Email</a><i class="fas fa-envelope"></i></button>
-        <button class="btn btn-outline-secondary"><a class="ContactLists" href="6624919144">Phone</a><i class="fas fa-phone"></i></button>
-        <button class="btn btn-outline-secondary"><a class="ContactLists" href="">Linkedin</a><i class="fab fa-linkedin"></i></button>
-        <button class="btn btn-outline-secondary"><a class="ContactLists" href="https://github.com/DylanMcC3525">GitHub</a><i class="fab fa-github-square"></i></button>
+        <button class="btn btn-secondary"><a class="ContactLists" href="bmccreary3525@gmail.com">Email</a><i class="fas fa-envelope"></i></button>
+        <button class="btn btn-secondary"><a class="ContactLists" href="6624919144">Phone</a><i class="fas fa-phone"></i></button>
+        <button class="btn btn-secondary"><a class="ContactLists" href="">Linkedin</a><i class="fab fa-linkedin"></i></button>
+        <button class="btn btn-secondary"><a class="ContactLists" href="https://github.com/DylanMcC3525">GitHub</a><i class="fab fa-github-square"></i></button>
         
      </div>
     </div>
