@@ -3,20 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dylan McCreary</title>
+    <title >Dylan McCreary</title>
     <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="myScript.js"></script>
     
     
 </head>
 <body>
-    <div class="">
-    <h1 class="name headers">Dylan McCreary</h1>
-    
-    <p class="description">Software Developer</p>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#Home">Home</a>
+        <a href="#AboutMe">About Me</a>
+        <a href="#Projects">Projects</a>
+        <a href="#ContactMe">Contact Me</a>
     </div>
+    <span onclick="openNav()"><i class="fas fa-2x fa-bars"></i></span>
+    <div id="main">
+    <h1 id="Home" class="name headers">Dylan McCreary</h1>
+    <p class="description">Software Developer</p>
+    
     <h1 id="AboutMe" class="headers">About Me</h1>
     <div class="card"></div>
-    <p class="information">Welcome to my portfolio. My name is Dylan McCreary, I am currently attending <a href="https://basecampcodingacademy.org/">Base Camp Coding Academy</a> where I am training to be a Software Developer. I have been building up my skills in Python, HTML, and CSS.</p>
+    <p class="information">Welcome to my portfolio. My name is Dylan McCreary, I am currently attending <a href="https://basecampcodingacademy.org/">Base Camp Coding Academy</a> where I am training to be a Software Developer. I am skilled in Python, HTML, CSS, Bootstrap, Git, and MySQL. I also have experience in graphic design.</p>
     <div class="card-columns mb-3">
         <h1 class="headers" id="Projects">Projects</h1>
         <div class="card"></div>
@@ -42,11 +52,12 @@
     <div class="card"></div>
     <div>
         <h2>Places you can contact</h2>
-        <li><a class="ContactLists" href="bmccreary3525@gmail.com">Email</a></li>
-        <li><a class="ContactLists" href="6624919144">Phone</a></li>
-        <li><a class="ContactLists" href="">Linkedin</a></li>
-        <li><a class="ContactLists" href="https://github.com/DylanMcC3525">GitHub</a></li>
-        <li><a class="ContactLists" href="Twitter.com">Twitter</a></li>
+        <li><i class="fas fa-envelope"></i><a class="ContactLists" href="bmccreary3525@gmail.com">Email</a></li>
+        <li><i class="fas fa-phone"></i><a class="ContactLists" href="6624919144">Phone</a></li>
+        <li><i class="fab fa-linkedin"></i><a class="ContactLists" href="">Linkedin</a></li>
+        <li><i class="fab fa-github-square"></i><a class="ContactLists" href="https://github.com/DylanMcC3525">GitHub</a></li>
+        
+     </div>
     </div>
 </body>
 
