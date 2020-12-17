@@ -3,7 +3,7 @@
 
 body {
   background: #fff;
-  max-width: 75vw;
+  max-width: 80vw;
   margin: auto;
   font-family: "Lato", sans-serif;
 }
@@ -91,7 +91,7 @@ img {
 }
 
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
 }
 
 .container {
@@ -199,3 +199,8 @@ html {
 .btn-secondary{color:#fff;background-color:#6c757d;border-color:#6c757d}
 
 
+/* Icon Spacing */
+.icon-spacing{
+
+  
+}
