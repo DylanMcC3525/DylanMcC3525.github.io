@@ -53,7 +53,7 @@ img {
 .name {
   color: #4acaa8;
   font-family: "Lato", sans-serif;
-  font-size: 40px;
+  font-size: 43px;
 }
 
 .description {
@@ -69,8 +69,7 @@ img {
   font-style: normal;
 }
 
-/* Cards for Projects */
-.card {
+.line {
   position: relative;
   display: -ms-flexbox;
   display: flex;
@@ -82,6 +81,48 @@ img {
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
+}
+
+/* Cards for Projects */
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+
+}
+
+.title-center{
+  text-align: center;
+}
+
+.img-center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+@media (max-width: 500){
+  .img-center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:80%;
+  }
+  
+}
+
+.p-card{
+  text-align: center;
+  color:rgb(57, 57, 57)
 }
 
 @media (max-width: 800px) {
@@ -101,9 +142,9 @@ html {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: rgb(196, 196, 196);
+  background-color: rgb(247, 247, 247);
   overflow-x: hidden;
-  padding-top: 20px;
+  padding-top: 30px;
 }
 
 /* Page content */
@@ -123,7 +164,7 @@ html {
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
-  color: #f1f1f1;
+  color: #797979;
 }
 
 /* Position and style the close button (top right corner) */
@@ -150,8 +191,11 @@ html {
     font-size: 18px;
   }
 
+  
 
-btn
-{display:inline-block;font-weight:400;color:#212529;text-align:center;vertical-align:middle;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-color:transparent;border:1px solid transparent;padding:.375rem .75rem;font-size:1rem;line-height:1.5;border-radius:.25rem;transition:color;}
+
+.btn{display:inline-block;font-weight:400;color:#212529;text-align:center;vertical-align:middle;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-color:transparent;border:1px solid transparent;padding:.375rem .75rem;font-size:1rem;line-height:1.5;border-radius:.25rem;transition:color;}
 
 .btn-secondary{color:#fff;background-color:#6c757d;border-color:#6c757d}
+
+
