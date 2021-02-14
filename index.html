@@ -1,76 +1,159 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title >Dylan McCreary</title>
-    <link href="style.css" rel="stylesheet">
-    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
-    <link rel="icon" type="image/png" href="logo.png"/>
-    <!-- Scripts -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="myScript.js"></script>
-    <!-- End of Scripts  -->
-    
-</head>
-<body id="Home">
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Dylan McCreary</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
-    <div id="main">
-        <div id="mySidenav" class="sidenav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="#Home" onclick="closeNavMedia()">Home</a>
-            <a href="#AboutMe" onclick="closeNavMedia()">About Me</a>
-            <a href="#Projects" onclick="closeNavMedia()">Projects</a>
-            <a href="#ContactMe" onclick="closeNavMedia()">Contact Me</a>
-        </div>
-        <span onclick="openNav()"><i class="icon-spacing fas fa-2x fa-bars"></i></span> 
-    <h1 class="name headers">Dylan McCreary</h1>
-    
-    <p class="description">&lt;/Software Developer&gt;</p>
-    
-    <h1 id="AboutMe" class="headers">About Me</h1>
-    <div class="line"></div>
-    <p class="information">Welcome to my portfolio. My name is Dylan McCreary, I am currently attending <a href="https://basecampcodingacademy.org/">Base Camp Coding Academy</a> where I am training to be a Software Developer. I am skilled in Python, Django, HTML, CSS, Bootstrap, and SQL. I am also experienced in Linux, Windows, and Git.</p>
-    <div class="card-columns mb-3">
-        <h1 class="headers" id="Projects">Projects</h1>
-        <div class="line"></div>
-        <img>
-            <div class="card">
-                <div class="container">
-                <h2 class="title-center">Hotel Reservation System</h2>
-               <img class="img-center" src="Screenshot (55).png" alt="Screenshot of the hotel application">
-                <p class="p-card">This application was built in Python3 using Tkinter. It stores information that hotels usually hold into a database. You can store information as well as editing the information in the database.</p>
-                <p class="p-card">Check out the repository:  <a href="https://github.com/BaseCampCoding/unit-project-2-loveleen-dylan">https://github.com/BaseCampCoding/unit-project-2-loveleen-dylan</a></p>
-                <p class="p-card"><small>Created November 2020</small></p>
-                <h2 class="title-center">Multi Language Translator</h2>
-                <img class="img-center" src="Screenshot (57).png" alt="Screenshot of the multi language translator">
-                <p class="p-card">Multi language translator is an application that was built in Python3 using a module called googletrans. You can translate anything you want into a 106 languages or  more as well as translating something from a file.</p>
-                <p class="p-card">Check out the repository:  <a href="https://github.com/BaseCampCoding/fundamentals-of-programming-pt-1-unit-project-andy-and-dylan">https://github.com/BaseCampCoding/fundamentals-of-programming-pt-1-unit-project-andy-and-dylan</a></p>
-                <p class="p-card"><small>Created October 2020</small></p>
-                <h2 class="title-center">Personal Portfolio</h2>
-                <img class="img-center" src="Screenshot (72).png" alt="Screenshot of me making the portfolio.">
-                <p class="p-card">This is my portfolio that I am currently creating. It showcases my skills in HTML and CSS as well as showing projects I have created in Python and other languages as well as information about myself.  </p>
-                <p class="p-card">Check out the repository: <a href="https://github.com/DylanMcC3525/DylanMcC3525.github.io">https://github.com/DylanMcC3525/DylanMcC3525.github.io</a></p>
-                <p class="p-card"><small>Created December 2020</small></p>
-                <h2 class="title-center">GUI Clock</h2>
-                <a><img class="img-center" src="https://i.ibb.co/JxbD5yS/guiclock.png" alt="Screenshot of GUI clock"></a>
-                <p class="p-card">GUI Clock built in Python3 shows the time but in a GUI.</p>
-                <p class="p-card"><small>Created September 2020</small></p>
-            </div>
-            </div>
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li><a href="#intro">Welcome</a></li>
+							<li><a href="#one">About Me</a></li>
+							<li><a href="#two">Projects</a></li>
+							<li><a href="#three">Get in touch</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
 
-        </div>
-    <h1 class="headers">Contact Me</h1>
-    <div class="line"></div>
-    <div id="ContactMe">
-        <h2>Places you can contact me</h2>
-        <button class="btn btn-secondary"><a class="ContactLists" href="mailto:bmccreary3525@gmail.com"><i class="fas fa-envelope"></i></a></button>
-        <button class="btn btn-secondary"><a class="ContactLists" href="https://www.linkedin.com/in/dylanmcc/"><i class="fab fa-linkedin"></i></a></button>
-        <button class="btn btn-secondary"><a class="ContactLists" href="https://github.com/DylanMcC3525"><i class="fab fa-github-square"></i></a></button>
-        
-     </div>
-    </div>
-</body>
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-<footer><p>&copy; Dylan McCreary 2020</p></footer>
+				<!-- Intro -->
+					<section id="intro" class="wrapper style1 fullscreen fade-up">
+						<div class="inner">
+							<h1>Dylan McCreary</h1>
+								<a href="#one" class="button scrolly">About Me</a>
+							</ul>
+						</div>
+					</section>
+
+				<!-- One -->
+					<section id="one" class="wrapper style2 spotlights">
+						<section>
+							<a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Who Am I?</h2>
+									<p>I'm Dylan McCreary from Tupelo MS. I am a Full Stack Software Engineer and a student at <a href="https://basecampcodingacademy.org/">Base Camp Coding Academy.</a> </p>
+									<ul class="actions">
+										
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Interpersonal Skills</h2>
+									<p>
+										<li>Communication</li>
+										<li>Leadership</li>
+										<li>Teamwork</li>
+										<li>Responsibility</li>
+										<li>Dependability</li>
+									</p>
+									<ul class="actions">
+										
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Technical Skills</h2>
+									<ul>
+										<li>Python</li>
+										<li>Django</li>
+										<li>HTML/CSS</li>
+										<li>JavaScript</li>
+										<li>SQL</li>
+									</ul>
+									
+									
+									<ul class="actions">
+										
+									</ul>
+								</div>
+							</div>
+						</section>
+					</section>
+
+				<!-- Two -->
+					<section id="two" class="wrapper style3 fade-up">
+						<div class="inner">
+							<h2>What I've created</h2>
+							<!-- <p>Here is a collection of projects I've developed.</p> -->
+							<!-- class = Features -->
+							<div class="">
+								<section>
+									<span class="icon solid major fa-building"></span>
+									<h3>Hotel Reservation System</h3>
+									<p>Application built in Python3 using Tkinter. It stores user information into a SQL database as well as the ability to edit the database within the</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-language"></span>
+									<h3>Multi Language Translator</h3>
+									<p>Multi language translator is an program that was built in Python3 using a module called googletrans. You can translate anything you want into a 106 languages, you can translate from a file or from your own input.</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-code"></span>
+									<h3>Personal Portfolio</h3>
+									<p>This website is demonstrating my HTML / CSS skills. As well to showcase my other work in other technical fields.</p>
+								</section>
+							</div>
+						</div>
+					</section>
+
+				<!-- Three -->
+					<section id="three" class="wrapper style1 fade-up">
+						<div class="inner">
+							<h2>Get in touch</h2>
+							
+							<div class=" style1">
+
+								<section>
+											<ul class="icons">
+												<li><a href="mailto:bmccreary3525@gmail.com" class="fas fa-envelope"><span class="label">Email</span></a></li>
+												<li><a href="https://github.com/DylanMcC3525" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+												<li><a href="https://www.linkedin.com/in/dylanmcc/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+											</ul>
+										</li>
+									</ul>
+								</section>
+							</div>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper style1-alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Dylan McCreary 2020</li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
